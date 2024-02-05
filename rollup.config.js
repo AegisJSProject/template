@@ -1,19 +1,14 @@
-import { nodeResolve } from '@rollup/plugin-node-resolve';
-import { warningHandler } from '@shgysk8zer0/js-utils/rollup';
-import { listDirByExt } from '@shgysk8zer0/npm-utils/fs';
+import nodeResolve from '@rollup/plugin-node-resolve';
 
-const modules = await listDirByExt('./', '.js');
+const externalPackages = ['@shgysk8zer0/aegis'];
 
 export default {
-	input: modules.filter(module => ! module.endsWith('.config.js')),
-	external: [],
-	onwarn: warningHandler,
+	input: 'index.js',
 	output: {
-		dir: './cjs/',
+		file: 'index.cjs',
 		format: 'cjs',
-		preserveModules: true,
-		entryFileNames: '[name].cjs',
-		chunkFileNames: '[name]-[hash].cjs',
 	},
 	plugins: [nodeResolve()],
+	external: id => externalPackages.some(pkg => id.startsWith(pkg)),
 };
+

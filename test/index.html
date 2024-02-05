@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="color-scheme" content="light dark" />
+		<meta http-equiv="Content-Security-Policy" content="
+			default-src 'none';
+			style-src 'self' blob:;
+			script-src 'self' https://unpkg.com/@shgysk8zer0/ 'nonce-e8c0a8e6-ed9c-40c2-a542-bacaad072bfe';
+			connect-src https://icanhazdadjoke.com/;
+			trusted-types emtpy#html mepty#script sanitizer-raw#html;
+			require-trusted-types-for 'script';
+		" />
+		<title>@shgysk8zer0/aegis-component-template</title>
+		<script type="importmap" nonce="e8c0a8e6-ed9c-40c2-a542-bacaad072bfe">
+			{
+				"imports": {
+					"@shgysk8zer0/aegis": "../node_modules/@shgysk8zer0/aegis/aegis.js",
+					"@shgysk8zer0/aegis/": "../node_modules/@shgysk8zer0/aegis/",
+					"@shgysk8zer0/aegis-styles": "../node_modules/@shgysk8zer0/aegis-styles/styles.js",
+					"@shgysk8zer0/aegis-styles/": "../node_modules/@shgysk8zer0/aegis-styles/",
+					"@shgysk8zer0/aegis-component": "../node_modules/@shgysk8zer0/aegis-component/component.js",
+					"@shgysk8zer0/aegis-component/": "../node_modules/@shgysk8zer0/aegis-component/"
+				}
+			}
+		</script>
+		<script type="application/javascript" defer="" referrerpolicy="no-referrer" crossorigin="anonymous" integrity="sha384-Shkrmxly5RI9mCU8DQr6l4VLVJzjPzgx9KP/f5i7pEcl7ZUt0wHiAweGjbpjU2d5" src="https://unpkg.com/@shgysk8zer0/polyfills@0.3.1/all.min.js" fetchpriority="auto"></script>
+		<script type="application/javascript" defer="" referrerpolicy="no-referrer" crossorigin="anonymous" integrity="sha384-55L/wO9o0uIVTeubRIDQB4bewfNqyxrj4OXuxlW24NMEk+ioZwMHVw/tFV78mM+k" src="https://unpkg.com/@shgysk8zer0/kazoo@0.3.2/harden.js" fetchpriority="auto"></script>
+		<script type="module" src="./dad-joke.js" referrerpolicy="no-referrer"></script>
+	</head>
+	<body>
+		<dad-joke></dad-joke>
+	</body>
+</html>

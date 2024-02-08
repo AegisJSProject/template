@@ -1,6 +1,6 @@
 {
   "name": "@shgysk8zer0/aegis-component-template",
-  "version": "1.1.1",
+  "version": "0.0.2",
   "description": "Template repository for `@shgysk8zer0/aegis-component` components",
   "keywords": [
     "aegis",
@@ -92,8 +92,8 @@
     "rollup": "^4.9.6"
   },
   "dependencies": {
-    "@shgysk8zer0/aegis": "^0.0.4",
-    "@shgysk8zer0/aegis-component": "^0.0.2",
-    "@shgysk8zer0/aegis-styles": "^0.0.2"
+    "@shgysk8zer0/aegis": "^0.0.5",
+    "@shgysk8zer0/aegis-component": "^0.0.3",
+    "@shgysk8zer0/aegis-styles": "^0.0.3"
   }
 }

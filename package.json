@@ -89,7 +89,7 @@
     "@shgysk8zer0/rollup-import": "^1.2.3",
     "eslint": "^8.56.0",
     "http-server": "^14.1.1",
-    "rollup": "^4.9.6"
+    "rollup": "^4.10.0"
   },
   "dependencies": {
     "@shgysk8zer0/aegis": "^0.0.6",

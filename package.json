@@ -93,7 +93,7 @@
   },
   "dependencies": {
     "@shgysk8zer0/aegis": "^0.0.8",
-    "@shgysk8zer0/aegis-component": "^0.0.3",
+    "@shgysk8zer0/aegis-component": "^0.0.4",
     "@shgysk8zer0/aegis-styles": "^0.0.3"
   }
 }

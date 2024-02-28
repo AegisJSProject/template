@@ -7,29 +7,37 @@
 		<meta http-equiv="Content-Security-Policy" content="
 			default-src 'none';
 			style-src 'self' blob:;
-			script-src 'self' https://unpkg.com/@shgysk8zer0/ 'nonce-e8c0a8e6-ed9c-40c2-a542-bacaad072bfe';
-			connect-src https://icanhazdadjoke.com/;
+			script-src 'self' https://unpkg.com/@shgysk8zer0/ https://unpkg.com/@aegisjsproject/ 'sha384-PfbneRdWdsrYy+nQxEYkJJ8PZ4Z0KQ8/I/e59g1jJ92L7ModAR1A2AfHksjbLIfP';
+			connect-src 'self' https://icanhazdadjoke.com/;
 			trusted-types emtpy#html mepty#script sanitizer-raw#html;
 			require-trusted-types-for 'script';
 		" />
-		<title>@shgysk8zer0/aegis-component-template</title>
-		<script type="importmap" nonce="e8c0a8e6-ed9c-40c2-a542-bacaad072bfe">
+		<title>@aegisjsproject/template</title>
+		<script type="importmap" integrity="sha384-PfbneRdWdsrYy+nQxEYkJJ8PZ4Z0KQ8/I/e59g1jJ92L7ModAR1A2AfHksjbLIfP">
 			{
 				"imports": {
-					"@shgysk8zer0/aegis": "../node_modules/@shgysk8zer0/aegis/aegis.js",
-					"@shgysk8zer0/aegis/": "../node_modules/@shgysk8zer0/aegis/",
-					"@shgysk8zer0/aegis-styles": "../node_modules/@shgysk8zer0/aegis-styles/styles.js",
-					"@shgysk8zer0/aegis-styles/": "../node_modules/@shgysk8zer0/aegis-styles/",
-					"@shgysk8zer0/aegis-component": "../node_modules/@shgysk8zer0/aegis-component/component.js",
-					"@shgysk8zer0/aegis-component/": "../node_modules/@shgysk8zer0/aegis-component/"
+					"@aegisjsproject/core": "../node_modules/@aegisjsproject/core/core.js",
+					"@aegisjsproject/core/": "../node_modules/@aegisjsproject/core/",
+					"@aegisjsproject/styles": "../node_modules/@aegisjsproject/styles/styles.js",
+					"@aegisjsproject/styles/": "../node_modules/@aegisjsproject/styles/",
+					"@aegisjsproject/component": "../node_modules/@aegisjsproject/component/component.js",
+					"@aegisjsproject/component/": "../node_modules/@aegisjsproject/component/",
+					"@aegisjsproject/template": "../hello-world.js",
+					"@aegisjsproject/template/": "../",
+					"@shgysk8zer0/": "https://unpkg.com/@shgysk8zer0/"
 				}
 			}
 		</script>
 		<script type="application/javascript" defer="" referrerpolicy="no-referrer" crossorigin="anonymous" integrity="sha384-Shkrmxly5RI9mCU8DQr6l4VLVJzjPzgx9KP/f5i7pEcl7ZUt0wHiAweGjbpjU2d5" src="https://unpkg.com/@shgysk8zer0/polyfills@0.3.1/all.min.js" fetchpriority="auto"></script>
 		<script type="application/javascript" defer="" referrerpolicy="no-referrer" crossorigin="anonymous" integrity="sha384-55L/wO9o0uIVTeubRIDQB4bewfNqyxrj4OXuxlW24NMEk+ioZwMHVw/tFV78mM+k" src="https://unpkg.com/@shgysk8zer0/kazoo@0.3.2/harden.js" fetchpriority="auto"></script>
-		<script type="module" src="./dad-joke.js" referrerpolicy="no-referrer"></script>
+		<script type="module" src="./index.js" referrerpolicy="no-referrer"></script>
 	</head>
 	<body>
-		<dad-joke></dad-joke>
+		<header>
+			<hello-world></hello-world>
+		</header>
+		<main>
+			<dad-joke></dad-joke>
+		</main>
 	</body>
 </html>

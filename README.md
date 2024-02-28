@@ -1,24 +1,24 @@
-# `@shgysk8zer0/aegis-component-template`
+# `@aegisjsproject/template`
 
-Template repository for [`@shgysk8zer0/aegis-component`](https://github.com/shgysk8zer0/aegis-component) components
+Template repository for [`@aegisjsproject/component`](https://github.com/AegisJSProject/component) components
 
-[![CodeQL](https://github.com/shgysk8zer0/aegis-component-template/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/shgysk8zer0/npm-template/actions/workflows/codeql-analysis.yml)
-![Node CI](https://github.com/shgysk8zer0/aegis-component-template/workflows/Node%20CI/badge.svg)
-![Lint Code Base](https://github.com/shgysk8zer0/aegis-component-template/workflows/Lint%20Code%20Base/badge.svg)
+[![CodeQL](https://@github.com/AegisJSProject/template/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/shgysk8zer0/npm-template/actions/workflows/codeql-analysis.yml)
+![Node CI](https://@github.com/AegisJSProject/template/workflows/Node%20CI/badge.svg)
+![Lint Code Base](https://@github.com/AegisJSProject/template/workflows/Lint%20Code%20Base/badge.svg)
 
-[![GitHub license](https://img.shields.io/github/license/shgysk8zer0/aegis-component-template.svg)](https://github.com/shgysk8zer0/aegis-component-template/blob/master/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/shgysk8zer0/aegis-component-template.svg)](https://github.com/shgysk8zer0/aegis-component-template/commits/master)
-[![GitHub release](https://img.shields.io/github/release/shgysk8zer0/aegis-component-template?logo=github)](https://github.com/shgysk8zer0/aegis-component-template/releases)
+[![GitHub license](https://img.shields.io/github/license/AegisJSProject/template.svg)](https://@github.com/AegisJSProject/template/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/AegisJSProject/template.svg)](https://@github.com/AegisJSProject/template/commits/master)
+[![GitHub release](https://img.shields.io/github/release/AegisJSProject/template?logo=github)](https://@github.com/AegisJSProject/template/releases)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/shgysk8zer0?logo=github)](https://github.com/sponsors/shgysk8zer0)
 
-[![npm](https://img.shields.io/npm/v/@shgysk8zer0/npm-template)](https://www.npmjs.com/package/@shgysk8zer0/npm-template)
-![node-current](https://img.shields.io/node/v/@shgysk8zer0/npm-template)
-![npm bundle size gzipped](https://img.shields.io/bundlephobia/minzip/@shgysk8zer0/npm-template)
-[![npm](https://img.shields.io/npm/dw/@shgysk8zer0/npm-template?logo=npm)](https://www.npmjs.com/package/@shgysk8zer0/npm-template)
+[![npm](https://img.shields.io/npm/v/@aegisjsproject/template)](https://www.npmjs.com/package/@aegisjsproject/template)
+![node-current](https://img.shields.io/node/v/@aegisjsproject/template)
+![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/%40aegisjsproject%template)
+[![npm](https://img.shields.io/npm/dw/@aegisjsproject/npm-template?logo=npm)](https://www.npmjs.com/package/@aegisjsproject/template)
 
-[![GitHub followers](https://img.shields.io/github/followers/shgysk8zer0.svg?style=social)](https://github.com/shgysk8zer0)
-![GitHub forks](https://img.shields.io/github/forks/shgysk8zer0/aegis-component-template.svg?style=social)
-![GitHub stars](https://img.shields.io/github/stars/shgysk8zer0/aegis-component-template.svg?style=social)
+[![GitHub followers](https://img.shields.io/github/followers/AegisJSProject.svg?style=social)](https://github.com/AegisJSProoject)
+![GitHub forks](https://img.shields.io/github/forks/AegisJSProject/template.svg?style=social)
+![GitHub stars](https://img.shields.io/github/stars/AegisJSProject/template.svg?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/shgysk8zer0.svg?style=social)](https://twitter.com/shgysk8zer0)
 
 [![Donate using Liberapay](https://img.shields.io/liberapay/receives/shgysk8zer0.svg?logo=liberapay)](https://liberapay.com/shgysk8zer0/donate "Donate using Liberapay")
@@ -29,14 +29,14 @@ Template repository for [`@shgysk8zer0/aegis-component`](https://github.com/shgy
 <!-- - [Security Policy](./.github/SECURITY.md) -->
 
 This is a [GitHub Template Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
-to create components using [`@shgysk8zer0/aegis-component`](https://npmjs.com/package/aegis-component).
+to create components using [`@aegisjsproject/component`](https://npmjs.com/package/@aegisjsproject/component).
 It serves as a quick-start to creating light-weight, secure, web standards based 
 components. It provides the essentials, such as:
 
 - The essential packages:
-  - [`@shgysk8zer0/aegis`](https://github.com/shgysk8zer0/aegis)
-  - [`@shgysk8zer0/aegis-styles`](https://github.com/shgysk8zer0/aegis-styles)
-  - [`@shgysk8zer0/aegis-component`](https://github.com/shgysk8zer0/aegis-component)
+  - [`@aegisjsproject/core`](https://github.com/AegisJSProject/aegis)
+  - [`@aegisjsproject/styles`](https://github.com/AegisJSProject/styles)
+  - [`@aegisjsproject/component`](https://github.com/AegisJSProject/component)
 - Build tools
   - [eslint](https://npmjs.com/eslint)
   - [rollup](https://npmjs.com/rollup)
@@ -45,7 +45,7 @@ components. It provides the essentials, such as:
 - Automated releases to npm on `git tag` (when pushed using `git push --tags`)
 - Provides GitHub Action for Package Provenance
 
-To start creating your own component, just go to the [GitHub repo](https://github.com/shgysk8zer0/aegis-component-template)
+To start creating your own component, just go to the [GitHub repo](https://@github.com/AegisJSProject/template)
 and click the "Use this template" button.
 
 ## Steps to Create a Component
@@ -73,14 +73,20 @@ it will create a new GitHub Release and a new release on npm with Package Proven
 ## Example Component:
 
 ```js
-import { AegisComponent, registerComponent } from '@shgysk8zer0/aegis-component';
-import { html, appendTo } from '@shgysk8zer0/aegis';
+import { AegisComponent, SYMBOLS, TRIGGERS } from '@aegisjsproject/component';
+import { html, appendTo } from '@aegisjsproject/core';
 
-registerComponent('hello-world', class HTMLHelloWorldElement extends AegisComponent {
-  constructor() {
-    super(({ shadow }) => appendTo(shadow, html`<h1>Hello, World!</h1>`));
+class HTMLHelloWorldElement extends AegisComponent {
+  async [SYMBOLS.render](type, { shadow }) {
+    switch(type) {
+      case TRIGGERS.constructed:
+        appendTo(shadow, html`<h1>Hello, World!</h1>`);
+        break;
+    }
   }
-});
+}
+
+HTMLHelloWorldElement.register('hello-world');
 ```
 
 ## Package, Component, & Repository Requirements
@@ -108,7 +114,7 @@ This is the base CSP (with comments):
 ```
 default-src 'none'; // Block everything by default
 style-src 'self' blob:; // `blob:` essential for constructable stylesheet polyfill
-script-src 'self' https://unpkg.com/@shgysk8zer0/; // Your script source may/should be added
+script-src 'self' https://unpkg.com/@aegisjsproject/; // Your script source may/should be added
 connect-src 'self'; // Add any data sources as needed, but as specific as possible
 trusted-types emtpy#html mepty#script sanitizer-raw#html; // Add to as necessary
 require-trusted-types-for 'script'; // This is required and currently the only option

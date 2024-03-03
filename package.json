@@ -1,6 +1,6 @@
 {
   "name": "@aegisjsproject/tempplate",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Template repository for `@aegisjsproject/component` components",
   "keywords": [
     "aegis",
@@ -92,8 +92,8 @@
     "rollup": "^4.12.0"
   },
   "dependencies": {
-    "@aegisjsproject/component": "^0.1.0",
-    "@aegisjsproject/core": "^0.1.0",
-    "@aegisjsproject/styles": "^0.1.0"
+    "@aegisjsproject/component": "^0.1.1",
+    "@aegisjsproject/core": "^0.1.2",
+    "@aegisjsproject/styles": "^0.1.1"
   }
 }

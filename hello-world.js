@@ -1,13 +1,10 @@
-import { AegisComponent, SYMBOLS, TRIGGERS } from '@aegisjsproject/component';
-import { html, appendTo } from '@aegisjsproject/core';
+import { AegisComponent } from '@aegisjsproject/component/base.js';
 
 class HTMLHelloWorldElement extends AegisComponent {
-	async [SYMBOLS.render](type, { shadow }) {
-		switch(type) {
-			case TRIGGERS.constructed:
-				appendTo(shadow, html`<h1>Hello, World!</h1>`);
-				break;
-		}
+	constructor() {
+		super({
+			template: '<h1><slot name="content">Hello, World!</slot></h1>',
+		});
 	}
 }
 

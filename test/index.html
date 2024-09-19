@@ -7,13 +7,13 @@
 		<meta http-equiv="Content-Security-Policy" content="
 			default-src 'none';
 			style-src 'self' blob:;
-			script-src 'self' https://unpkg.com/@shgysk8zer0/ https://unpkg.com/@aegisjsproject/ 'sha384-PfbneRdWdsrYy+nQxEYkJJ8PZ4Z0KQ8/I/e59g1jJ92L7ModAR1A2AfHksjbLIfP';
+			script-src 'self' https://unpkg.com/@shgysk8zer0/ https://unpkg.com/@aegisjsproject/ 'sha384-lS82fisivTa4x9EuVwWYhHck9EeDmqd1Z0Q33CjrZ/T95aTeE1BkQBYsMoy9lDev';
 			connect-src 'self' https://icanhazdadjoke.com/;
-			trusted-types emtpy#html mepty#script sanitizer-raw#html;
+			trusted-types emtpy#html mepty#script aegis-sanitizer#html;
 			require-trusted-types-for 'script';
 		" />
 		<title>@aegisjsproject/template</title>
-		<script type="importmap" integrity="sha384-PfbneRdWdsrYy+nQxEYkJJ8PZ4Z0KQ8/I/e59g1jJ92L7ModAR1A2AfHksjbLIfP">
+		<script type="importmap" integrity="sha384-lS82fisivTa4x9EuVwWYhHck9EeDmqd1Z0Q33CjrZ/T95aTeE1BkQBYsMoy9lDev">
 			{
 				"imports": {
 					"@aegisjsproject/core": "../node_modules/@aegisjsproject/core/core.js",
@@ -22,13 +22,15 @@
 					"@aegisjsproject/styles/": "../node_modules/@aegisjsproject/styles/",
 					"@aegisjsproject/component": "../node_modules/@aegisjsproject/component/component.js",
 					"@aegisjsproject/component/": "../node_modules/@aegisjsproject/component/",
+					"@aegisjsproject/parsers/": "../node_modules/@aegisjsproject/parsers/",
+					"@aegisjsproject/sanitizer/": "../node_modules/@aegisjsproject/sanitizer/",
 					"@aegisjsproject/template": "../hello-world.js",
 					"@aegisjsproject/template/": "../",
 					"@shgysk8zer0/": "https://unpkg.com/@shgysk8zer0/"
 				}
 			}
 		</script>
-		<script type="application/javascript" defer="" referrerpolicy="no-referrer" crossorigin="anonymous" integrity="sha384-Shkrmxly5RI9mCU8DQr6l4VLVJzjPzgx9KP/f5i7pEcl7ZUt0wHiAweGjbpjU2d5" src="https://unpkg.com/@shgysk8zer0/polyfills@0.3.1/all.min.js" fetchpriority="auto"></script>
+		<script type="application/javascript" defer="" referrerpolicy="no-referrer" crossorigin="anonymous" integrity="sha384-CP/nVh8lHR1uyEXUkbQ4YZijSR9xfxvXCVxsFVsWs1FjURa8jEqvpz0c3VL8Rw0e" src="https://unpkg.com/@shgysk8zer0/polyfills@0.4.3/all.min.js" fetchpriority="auto"></script>
 		<script type="application/javascript" defer="" referrerpolicy="no-referrer" crossorigin="anonymous" integrity="sha384-55L/wO9o0uIVTeubRIDQB4bewfNqyxrj4OXuxlW24NMEk+ioZwMHVw/tFV78mM+k" src="https://unpkg.com/@shgysk8zer0/kazoo@0.3.2/harden.js" fetchpriority="auto"></script>
 		<script type="module" src="./index.js" referrerpolicy="no-referrer"></script>
 	</head>

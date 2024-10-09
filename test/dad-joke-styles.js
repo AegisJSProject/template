@@ -1,11 +1,8 @@
 import { css } from '@aegisjsproject/core/parsers/css.js';
-import { gray } from '@aegisjsproject/styles/palette/bootstrap.js';
 
 export const styles = css`:host {
 	padding: 1.2rem;
 	width: clamp(400px, 100%, 600px);
-	border-radius: 14px;
-	border: 1px solid ${gray[3]};
 }
 
 [part="joke"] {

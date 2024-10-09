@@ -9,11 +9,12 @@
 			style-src 'self' blob:;
 			script-src 'self' https://unpkg.com/@shgysk8zer0/ https://unpkg.com/@aegisjsproject/ 'sha384-lS82fisivTa4x9EuVwWYhHck9EeDmqd1Z0Q33CjrZ/T95aTeE1BkQBYsMoy9lDev';
 			connect-src 'self' https://icanhazdadjoke.com/;
-			trusted-types emtpy#html mepty#script aegis-sanitizer#html;
+			img-src 'self' blob:;
+			trusted-types empty#html empty#script aegis-sanitizer#html;
 			require-trusted-types-for 'script';
 		" />
 		<title>@aegisjsproject/template</title>
-		<script type="importmap" integrity="sha384-lS82fisivTa4x9EuVwWYhHck9EeDmqd1Z0Q33CjrZ/T95aTeE1BkQBYsMoy9lDev">
+		<script type="importmap">
 			{
 				"imports": {
 					"@aegisjsproject/core": "../node_modules/@aegisjsproject/core/core.js",
@@ -30,16 +31,9 @@
 				}
 			}
 		</script>
-		<script type="application/javascript" defer="" referrerpolicy="no-referrer" crossorigin="anonymous" integrity="sha384-CP/nVh8lHR1uyEXUkbQ4YZijSR9xfxvXCVxsFVsWs1FjURa8jEqvpz0c3VL8Rw0e" src="https://unpkg.com/@shgysk8zer0/polyfills@0.4.3/all.min.js" fetchpriority="auto"></script>
-		<script type="application/javascript" defer="" referrerpolicy="no-referrer" crossorigin="anonymous" integrity="sha384-55L/wO9o0uIVTeubRIDQB4bewfNqyxrj4OXuxlW24NMEk+ioZwMHVw/tFV78mM+k" src="https://unpkg.com/@shgysk8zer0/kazoo@0.3.2/harden.js" fetchpriority="auto"></script>
+		<script defer="" referrerpolicy="no-referrer" crossorigin="anonymous" integrity="sha384-CP/nVh8lHR1uyEXUkbQ4YZijSR9xfxvXCVxsFVsWs1FjURa8jEqvpz0c3VL8Rw0e" src="https://unpkg.com/@shgysk8zer0/polyfills@0.4.3/all.min.js" fetchpriority="auto"></script>
+		<script defer="" referrerpolicy="no-referrer" crossorigin="anonymous" integrity="sha384-55L/wO9o0uIVTeubRIDQB4bewfNqyxrj4OXuxlW24NMEk+ioZwMHVw/tFV78mM+k" src="https://unpkg.com/@shgysk8zer0/kazoo@0.3.2/harden.js" fetchpriority="auto"></script>
 		<script type="module" src="./index.js" referrerpolicy="no-referrer"></script>
 	</head>
-	<body>
-		<header>
-			<hello-world></hello-world>
-		</header>
-		<main>
-			<dad-joke></dad-joke>
-		</main>
-	</body>
+	<body class="grid"></body>
 </html>

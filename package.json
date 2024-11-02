@@ -93,7 +93,7 @@
     "rollup": "^4.24.0"
   },
   "dependencies": {
-    "@aegisjsproject/component": "^0.1.4",
+    "@aegisjsproject/component": "^0.1.6",
     "@aegisjsproject/core": "^0.2.15",
     "@aegisjsproject/styles": "^0.2.3"
   }

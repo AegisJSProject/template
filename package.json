@@ -90,11 +90,11 @@
     "@shgysk8zer0/rollup-import": "^1.2.6",
     "eslint": "^9.39.2",
     "http-server": "^14.1.1",
-    "rollup": "^4.53.5"
+    "rollup": "^4.54.0"
   },
   "dependencies": {
     "@aegisjsproject/component": "^0.1.7",
-    "@aegisjsproject/core": "^0.2.28",
+    "@aegisjsproject/core": "^0.2.29",
     "@aegisjsproject/styles": "^0.2.7"
   }
 }

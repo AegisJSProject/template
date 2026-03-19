@@ -95,6 +95,6 @@
   "dependencies": {
     "@aegisjsproject/component": "^0.1.7",
     "@aegisjsproject/core": "^0.2.34",
-    "@aegisjsproject/styles": "^0.2.7"
+    "@aegisjsproject/styles": "^0.2.8"
   }
 }

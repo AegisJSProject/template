@@ -90,7 +90,7 @@
     "@shgysk8zer0/rollup-import": "^2.0.3",
     "eslint": "^10.2.1",
     "http-server": "^14.1.1",
-    "rollup": "^4.60.1"
+    "rollup": "^4.60.2"
   },
   "dependencies": {
     "@aegisjsproject/component": "^0.1.8",
